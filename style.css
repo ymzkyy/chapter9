@@ -78,9 +78,10 @@ footer {
 .step-box {
   width: 90%;
   margin: 20px auto;
-  padding: 10px;
-  position: relative;
-  background-color: #eee;
+}
+
+.step-box:last-child {
+  margin: 0 auto;
 }
 footer {
   width:100%;
